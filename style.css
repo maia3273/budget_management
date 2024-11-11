@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: 'Noto Sans JP', sans-serif; /* Ensure you have this font imported */
+    background-color: #f7fafc; /* Light gray background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container Styles */
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  .max-w-4xl {
+    max-width: 1024px; /* Adjust as needed */
+  }
+  
+  /* Header Styles */
+  h1 {
+    color: #2d3748; /* Dark gray */
+  }
+  
+  h2 {
+    color: #2d3748; /* Dark gray */
+  }
+  
+  /* Button Styles */
+  button {
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2b6cb0; /* Darker blue on hover */
+  }
+  
+  /* Form Styles */
+  input[type="number"],
+  select {
+    border: 1px solid #cbd5e0; /* Light gray border */
+    border-radius: 0.375rem; /* Rounded corners */
+    padding: 0.5rem; /* Padding */
+    width: 100%; /* Full width */
+  }
+  
+  input[type="number"]:focus,
+  select:focus {
+    border-color: #3182ce; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Transaction History Styles */
+  .flex {
+    display: flex;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .p-3 {
+    padding: 0.75rem; /* Padding */
+  }
+  
+  .bg-gray-50 {
+    background-color: #f7fafc; /* Light gray */
+  }
+  
+  .rounded {
+    border-radius: 0.375rem; /* Rounded corners */
+  }
+  
+  /* Pie Chart Styles */
+  canvas {
+    border: 1px solid #e2e8f0; /* Light gray border */
+    border-radius: 0.375rem; /* Rounded corners */
+  }
+  
+  /* Progress Bar Styles */
+  .w-full {
+    width: 100%;
+  }
+  
+  .bg-gray-200 {
+    background-color: #edf2f7; /* Light gray */
+  }
+  
+  .h-2.5 {
+    height: 0.625rem; /* Height for progress bar */
+  }
+  
+  .rounded-full {
+    border-radius: 9999px; /* Fully rounded */
+  }
+  
+  /* Responsive Styles */
+  @media (min-width: 768px) {
+    .md\:flex-row {
+      flex-direction: row; /* Flex direction for medium screens */
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .md\:grid-cols-2 {
+      grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+    }
+  }
