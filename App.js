@@ -2,7 +2,7 @@
 import React from "react";
 import { useState } from "react";
 import "./style.css";
-
+vvv
 function MainComponent() {
   const [transactions, setTransactions] = useState([]);
   const [quickInputs] = useState([
